@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b367a58-50d2-4c57-9683-37d1a5a055c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrp/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrp/entities/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hrp/AnagramTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hrp/AnagramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hrp/AnagramTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Chejohrpp"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Chejohrpp/examen-practico-AyD2-TDD.git",
+    "accountId": "d5747b06-99b9-42b3-8117-4a37cdc3217d"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -44,9 +48,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "JUnit.AnagramTest.notIsAnagramTest.executor": "Run",
     "JUnit.AnagramTest.notTheSameLenght.executor": "Run",
     "JUnit.AnagramTest.withExampleTheTest.executor": "Run",
+    "JUnit.AnagramTest.withFourLetterTest.executor": "Run",
     "JUnit.AnagramTest.withOneLetterTest.executor": "Run",
+    "JUnit.AnagramTest.withThreeLetterTest.executor": "Run",
     "JUnit.AnagramTest.withTwoLetterTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
@@ -64,21 +71,8 @@
       <recent name="com.hrp" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AnagramTest.notTheSameLenght">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hrp.Main" />
-      <module name="ExamenPracticoAyD2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hrp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnagramTest.notTheSameLenght" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AnagramTest.withFourLetterTest">
+    <configuration name="AnagramTest.notIsAnagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExamenPracticoAyD2" />
       <extension name="coverage">
         <pattern>
@@ -88,7 +82,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hrp" />
       <option name="MAIN_CLASS_NAME" value="com.hrp.AnagramTest" />
-      <option name="METHOD_NAME" value="notTheSameLenght" />
+      <option name="METHOD_NAME" value="notIsAnagramTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,7 +104,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnagramTest.withOneLetterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnagramTest.withFourLetterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExamenPracticoAyD2" />
       <extension name="coverage">
         <pattern>
@@ -120,7 +114,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hrp" />
       <option name="MAIN_CLASS_NAME" value="com.hrp.AnagramTest" />
-      <option name="METHOD_NAME" value="withOneLetterTest" />
+      <option name="METHOD_NAME" value="withFourLetterTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnagramTest.withThreeLetterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ExamenPracticoAyD2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hrp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hrp" />
+      <option name="MAIN_CLASS_NAME" value="com.hrp.AnagramTest" />
+      <option name="METHOD_NAME" value="withThreeLetterTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AnagramTest.notTheSameLenght" />
-        <item itemvalue="JUnit.AnagramTest.withTwoLetterTest" />
+        <item itemvalue="JUnit.AnagramTest.withFourLetterTest" />
+        <item itemvalue="JUnit.AnagramTest.withThreeLetterTest" />
         <item itemvalue="JUnit.AnagramTest.withExampleTheTest" />
-        <item itemvalue="JUnit.AnagramTest.withOneLetterTest" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.AnagramTest.withTwoLetterTest" />
+        <item itemvalue="JUnit.AnagramTest.notIsAnagramTest" />
       </list>
     </recent_temporary>
   </component>
